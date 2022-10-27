@@ -7,7 +7,7 @@ import slack from "../assets/slack.png";
 export default function LinksSection() {
   return (
     <div id="links_section">
-      <a href="" target="blank">
+      <a href="https://twitter.com/Linadamson" target="blank">
         <div className="links_container">
           <span>Twitter Link</span>
         </div>
@@ -26,7 +26,11 @@ export default function LinksSection() {
         </div>
       </a>
 
-      <a id="book_python" href="https://books.zuri.team/python-for-beginners?ref_id=Lina" target="blank">
+      <a
+        id="book_python"
+        href="https://books.zuri.team/python-for-beginners?ref_id=Lina"
+        target="blank"
+      >
         <div className="links_container">
           <span>Python Books</span>
         </div>
@@ -39,7 +43,11 @@ export default function LinksSection() {
         </div>
       </a>
 
-      <a id="book_design" href="https://books.zuri.team/design-rules" target="blank">
+      <a
+        id="book_design"
+        href="https://books.zuri.team/design-rules"
+        target="blank"
+      >
         <div className="links_container">
           <span>Design Books</span>
           <p>Learn Design with this free book</p>
@@ -47,11 +55,11 @@ export default function LinksSection() {
       </a>
 
       <div className="social-icons">
-        <img src={slack} alt='slack icon'/>
-        <img src={github} alt='github icon'/>
+        <img src={slack} alt="slack icon" />
+        <a href="https://github.com/linaadamson/linktree-page" target="blank">
+          <img src={github} alt="github icon" />
+        </a>
       </div>
-
-
     </div>
   );
 }
