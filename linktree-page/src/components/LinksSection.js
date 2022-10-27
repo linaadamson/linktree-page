@@ -13,7 +13,7 @@ export default function LinksSection() {
         </div>
       </a>
 
-      <a id="btn_zuri" href="https://training.zuri.team/" target="blank">
+      <a id="btn__zuri" href="https://training.zuri.team/" target="blank">
         <div className="links_container">
           <span>Zuri Team</span>
         </div>
@@ -27,7 +27,7 @@ export default function LinksSection() {
       </a>
 
       <a
-        id="book_python"
+        id="book__python"
         href="https://books.zuri.team/python-for-beginners?ref_id=Lina"
         target="blank"
       >
@@ -44,7 +44,7 @@ export default function LinksSection() {
       </a>
 
       <a
-        id="book_design"
+        id="book__design"
         href="https://books.zuri.team/design-rules"
         target="blank"
       >
